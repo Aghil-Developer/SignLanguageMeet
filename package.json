@@ -1,0 +1,15 @@
+{
+  "name": "mouna",
+  "version": "1.0.0",
+  "description": "MOUNA – Real-Time Speech to Sign Language Communication Platform",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "node backend/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "peer": "^1.0.2",
+    "uuid": "^9.0.0"
+  }
+}
