@@ -1,0 +1,118 @@
+/* ============================================
+   MOUNA – Theme Variants
+   Default: MongoDB White Theme (set in main.css)
+   Alternate: Vibranium Purple Dark Theme
+   ============================================ */
+
+/* Vibranium Purple Dark Theme */
+body.theme-vibranium {
+  --bg-primary: #0f0f17;
+  --bg-secondary: #1a1a28;
+  --bg-tertiary: #12121c;
+  --accent: #7c3aed;
+  --accent-light: #a855f7;
+  --accent-glow: rgba(124, 58, 237, 0.3);
+  --text-primary: #f8fafc;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+  --border: #2e2e3a;
+  --gray-warm: #6b6b7b;
+  --gray-cool: #4a4a5a;
+  --success: #22c55e;
+  --danger: #ef4444;
+  --warning: #eab308;
+}
+
+body.theme-vibranium .navbar {
+  background: rgba(15, 15, 23, 0.85);
+}
+
+body.theme-vibranium .btn-primary {
+  background: linear-gradient(135deg, #7c3aed, #a855f7);
+  box-shadow: 0 4px 15px rgba(124, 58, 237, 0.25);
+}
+body.theme-vibranium .btn-primary:hover {
+  background: linear-gradient(135deg, #6d28d9, #9333ea);
+  box-shadow: 0 6px 25px rgba(124, 58, 237, 0.35);
+}
+
+body.theme-vibranium .btn-secondary:hover {
+  background: rgba(124, 58, 237, 0.1);
+}
+
+body.theme-vibranium .navbar-logo {
+  color: #a855f7;
+  -webkit-text-fill-color: #a855f7;
+}
+
+body.theme-vibranium .hero::before {
+  background: radial-gradient(ellipse, rgba(124, 58, 237, 0.2) 0%, transparent 70%);
+}
+body.theme-vibranium .hero::after {
+  background: radial-gradient(ellipse, rgba(168, 85, 247, 0.1) 0%, transparent 70%);
+}
+
+body.theme-vibranium .hero h1 .gradient-text {
+  background: linear-gradient(135deg, #7c3aed, #a855f7, #c084fc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+body.theme-vibranium .hero-badge {
+  background: rgba(124, 58, 237, 0.15);
+  border-color: rgba(124, 58, 237, 0.3);
+  color: #a855f7;
+}
+
+body.theme-vibranium .feature-icon {
+  background: rgba(124, 58, 237, 0.15);
+  color: #a855f7;
+}
+
+body.theme-vibranium .feature-card::before {
+  background: linear-gradient(90deg, #7c3aed, #a855f7);
+}
+
+body.theme-vibranium .section-header .badge {
+  background: rgba(124, 58, 237, 0.12);
+  border-color: rgba(124, 58, 237, 0.25);
+  color: #a855f7;
+}
+
+body.theme-vibranium .stat-card .stat-number {
+  color: #a855f7;
+}
+
+body.theme-vibranium .page-hero::before {
+  background: radial-gradient(ellipse, rgba(124, 58, 237, 0.15) 0%, transparent 70%);
+}
+
+body.theme-vibranium .sign-player-header {
+  background: rgba(124, 58, 237, 0.15);
+}
+body.theme-vibranium .sign-player-header span {
+  color: #a855f7;
+}
+
+body.theme-vibranium .call-controls .btn-icon:hover {
+  background: rgba(124, 58, 237, 0.15);
+}
+body.theme-vibranium .call-controls .btn-icon.sign-mode-btn {
+  background: rgba(124, 58, 237, 0.2);
+  border-color: #7c3aed;
+  color: #a855f7;
+}
+body.theme-vibranium .call-controls .btn-icon.sign-mode-btn.active {
+  background: #7c3aed;
+  color: #fff;
+}
+
+body.theme-vibranium .navbar-menu.open {
+  background: #0f0f17;
+}
+
+/* Theme toggle animation */
+body {
+  transition: background-color 0.4s ease, color 0.3s ease;
+}
