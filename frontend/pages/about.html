@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About – MOUNA</title>
+  <link rel="stylesheet" href="/styles/main.css">
+  <link rel="stylesheet" href="/styles/themes.css">
+</head>
+<body>
+  <section class="page-hero">
+    <div class="container">
+      <h1>About <span class="gradient-text">MOUNA</span></h1>
+      <p>A mission-driven platform built to bridge the communication gap between deaf and hearing communities through technology.</p>
+    </div>
+  </section>
+
+  <section class="content-section">
+    <div class="container">
+      <div class="content-grid">
+        <div>
+          <h3>Our Mission</h3>
+          <p>MOUNA was born from a simple yet powerful idea: everyone deserves to communicate freely. Over 466 million people worldwide have disabling hearing loss, and many rely on sign language as their primary form of communication.</p>
+          <p style="margin-top: 16px;">Our platform combines real-time video calling with speech recognition, automatic subtitles, and sign language video playback to create a truly inclusive communication experience.</p>
+        </div>
+        <div class="content-visual">&#9995;&#128154;</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="content-section" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="content-grid">
+        <div class="content-visual">&#127912;&#128187;</div>
+        <div>
+          <h3>How It Works</h3>
+          <p>When a hearing user speaks during a video call, MOUNA's speech recognition engine transcribes the speech in real-time. The transcription is displayed as live subtitles and key words are matched to sign language videos that play automatically.</p>
+          <p style="margin-top: 16px;">The deaf user sees both the subtitles and the corresponding sign language videos, ensuring nothing is lost in communication. Subtitles can be displayed in English, Telugu, Tamil, or Malayalam.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="content-section">
+    <div class="container">
+      <div class="content-grid">
+        <div>
+          <h3>Technology Stack</h3>
+          <p><strong>Frontend:</strong> HTML5, CSS3, JavaScript with a responsive, accessible interface designed with the Vibranium theme.</p>
+          <p style="margin-top: 12px;"><strong>Video Calling:</strong> WebRTC via PeerJS for peer-to-peer, low-latency video communication.</p>
+          <p style="margin-top: 12px;"><strong>Speech Recognition:</strong> Web Speech API for real-time speech-to-text conversion.</p>
+          <p style="margin-top: 12px;"><strong>Translation:</strong> Cloud translation API for multi-language subtitle support.</p>
+          <p style="margin-top: 12px;"><strong>Backend:</strong> Node.js with Express serving the application and PeerJS signaling server.</p>
+        </div>
+        <div class="content-visual">&#128640;</div>
+      </div>
+    </div>
+  </section>
+
+  <script src="/components/navbar.js"></script>
+  <script src="/components/footer.js"></script>
+  <script src="/scripts/app.js"></script>
+  <script>
+    renderNavbar('about');
+    renderFooter();
+  </script>
+</body>
+</html>
